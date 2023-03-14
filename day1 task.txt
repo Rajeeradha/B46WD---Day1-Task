@@ -1,0 +1,29 @@
+1. HTTP1.1
+	  Loads resources one after another. So, if one resource can not be loaded, it blocks all the other resources behind it.
+
+   HTTP2.0
+	  In contrast, it can loads all the resources simultaneously, so no one resource blocks any other resource.
+-----------------------------------------------------------------------------------------------------------------------------------------
+2. Objects and internal representation in Javascript:
+	  Objects are important datatypes in Javascript, different than primitive datatypes(i.e, number, string, boolean, etc.). Primitive data types contain one value, but object can hold many values. These can be variables or functions and are called properties and methods respectively.
+Syntax to add:
+--------------
+     objectName.ObjectProperty=propertyValue;
+
+Syntax to delete:
+-----------------
+     delete objectName.ObjectProperty;
+
+Syntax to access:
+-----------------
+     objectName.Property; / objectName["property"]; / objectName[expression];
+
+Example:
+--------
+       var myMob = new Object();
+	myMob.make='Apple';
+	myMob.model='14 Pro';
+	myMob.year=2022;
+
+i.e, myMob.year;
+Then, the output will be: 2022.
